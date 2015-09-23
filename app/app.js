@@ -7,5 +7,5 @@ angular.module('ee_demo_app', [
   'ee_demo_app.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/'});
+    $routeProvider.otherwise({redirectTo: '/home'});
 }]);
